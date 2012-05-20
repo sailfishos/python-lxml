@@ -1,3 +1,9 @@
+* Sun May 20 2012 D Wadsworth <letters.random13@gmail.com> - 2.3.4
+- Fixes MER#305 - update python-lxml to 2.3.4 
+- Convert to spectacle
+- Update URL and Source URL's
+- Eliminate spec file python3 build support (too complex for spectacle)
+
 * Wed Dec 23 2009 Anas Nashif <anas.nashif@intel.com> - 2.2.3
 - Initial import into Moblin
 

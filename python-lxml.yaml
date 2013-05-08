@@ -1,12 +1,14 @@
 Name: python-lxml
 Summary: ElementTree-like Python bindings for libxml2 and libxslt
-Version: 2.3.4
-Release: 3
+Version: 3.2.0
+Release: 1
 Group: Development/Libraries
 License: BSD
 URL: http://lxml.de/
 Sources:
     - http://pypi.python.org/packages/source/l/lxml/lxml-%{version}.tar.gz
+Patches:
+    - excludetests.patch
 Description: |
     lxml provides a Python binding to the libxslt and libxml2 libraries.
     It follows the ElementTree API as much as possible in order to provide
@@ -17,8 +19,8 @@ Description: |
 
 PkgConfigBR:
     - libxslt
+    - python2
 PkgBR:
-    - python-devel
     - python-setuptools-devel
 Configure: none
 Builder: none

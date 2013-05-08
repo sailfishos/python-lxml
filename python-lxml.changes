@@ -1,3 +1,7 @@
+* Wed May 8 2013 D Wadsworth <letters.random13@gmail.com> - 3.2.0
+- Fixes MER#695 - update python-lxml
+- Exclude a group of tests, only a couple of which fail (under osc at least)
+
 * Sun May 20 2012 D Wadsworth <letters.random13@gmail.com> - 2.3.4
 - Fixes MER#305 - update python-lxml to 2.3.4 
 - Convert to spectacle

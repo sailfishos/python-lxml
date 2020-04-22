@@ -19,7 +19,7 @@ Source100:  python-lxml.yaml
 Patch0:     excludetests.patch
 BuildRequires:  pkgconfig(libxslt)
 BuildRequires:  pkgconfig(python2)
-BuildRequires:  python-setuptools-devel
+BuildRequires:  python-setuptools
 
 %description
 lxml provides a Python binding to the libxslt and libxml2 libraries.
